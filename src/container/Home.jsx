@@ -91,7 +91,7 @@ const Home = () => {
         </div>
 
         {/* Bottom Section (Cards Section) */}
-        <div>
+        <div className="w-full">
           <Routes>
             <Route path="*" element={<Projects />} />
             <Route path="/auth" element={<SignUp />} />
