@@ -8,6 +8,7 @@ import { Link, Route, Routes } from "react-router-dom";
 import logo from "../assets/NewLogo.png";
 import { Projects, SignUp } from "../container";
 import { useSelector } from "react-redux";
+import { UserProfileDetails } from "../components";
 
 const Home = () => {
   const [isSideMenu, setIsSidemenu] = useState(false);
@@ -88,7 +89,7 @@ const Home = () => {
             </motion.div>
           )}
           {/* if you have the user */}
-          {user && <div></div>}
+          {user && <UserProfileDetails />}
         </div>
 
         {/* Bottom Section (Cards Section) */}
