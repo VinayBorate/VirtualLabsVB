@@ -60,3 +60,43 @@ body {
 .Resizer.disabled:hover {
   border-color: transparent;
 }
+
+.pane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+.pane1 {
+  background-color: #f0f0f0;
+}
+
+.pane2 {
+  background-color: #e0e0e0;
+}
+.pane3 {
+  background-color: #d0d0d0;
+}
+
+.CodeMirror {
+  height: 340px !important;
+  color: #fff;
+}
+.CodeMirror-gutters {
+  background: #1d1e22 !important;
+}
+.CodeMirror-scroll {
+  background: #1d1e22;
+}
+.CodeMirror {
+  padding-top: 0 !important;
+}
+.SplitPane.horizontal {
+  top: 100px !important;
+}
+.co {
+  /* background: #1d1e22; */
+  background: #131417;
+}
